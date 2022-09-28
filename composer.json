@@ -1,0 +1,17 @@
+{
+    "require": {
+        "symfony/http-foundation": "^6.0",
+        "symfony/routing": "^6.0",
+        "symfony/http-kernel": "^6.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "...": "...",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
